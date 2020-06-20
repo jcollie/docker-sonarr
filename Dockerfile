@@ -25,7 +25,7 @@ VOLUME /config
 EXPOSE 8989
 
 ARG BRANCH=phantom-develop
-ARG VERSION=3.0.3.729
+ARG VERSION=3.0.3.892
 
 RUN curl -o /tmp/Sonarr.tar.gz http://download.sonarr.tv/v3/phantom-develop/${VERSION}/Sonarr.phantom-develop.${VERSION}.linux.tar.gz && \
     tar --extract --file /tmp/Sonarr.tar.gz --directory /source --strip-components 1 && \
